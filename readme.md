@@ -60,7 +60,7 @@ Example (Continued...):
       - Pseudorandom Number Generation
       - Seeding Random Number Generators
 1. Generate the current 64-bit integer to be displayed.
-   - Number is unsigned using `random.getrandbits(64)`, so I subtract `2^64 (2**64)` from it to make it signed.
+   - Number is unsigned using `random.getrandbits(64)`, so I subtract `2^63 (2**63)` from it to make it signed.
 1. Update JSON History Log
 1. Print result to user.
 
